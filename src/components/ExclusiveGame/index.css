@@ -1,0 +1,25 @@
+.exclusive-game .swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.exclusive-game .swiper-slide {
+  text-align: center;
+  font-size: 18px;
+
+  /* Center slide text vertically */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  /* space */
+  width: 156px !important;
+  height: 210px !important;
+}
+
+.exclusive-game .swiper-slide img:first-child {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
