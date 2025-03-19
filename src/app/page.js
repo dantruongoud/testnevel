@@ -10,7 +10,7 @@ export default function Home() {
       <div className="max-w-[1440px] mx-auto p-4">
         <Header />
       </div>
-      <div className="my-8 py-3.5 p-4">
+      <div className="my-8 py-3.5">
         <Carousel />
       </div>
       <div className="max-w-[1440px] mx-auto p-4">

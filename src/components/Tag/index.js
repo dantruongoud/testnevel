@@ -45,9 +45,9 @@ const Tag = () => {
   return (
     <div className='flex flex-wrap justify-center items-center gap-4 py-4'>
       {tags.map((tag, index) => (
-        <div key={index} className={`flex-1 ${tag.isDark ? "bg-gray-300/50" : "bg-transparent"} ${!tag.isDark && "hidden md:flex"} rounded-md p-2 flex-row justify-center items-center flex-nowrap gap-2 border border-gray-300/20`}>
+        <div key={index} className={`flex-1 ${tag.isDark ? "bg-gray-300/50" : "bg-transparent"} ${!tag.isDark && "hidden"} flex rounded-md p-2 flex-row justify-center items-center flex-nowrap gap-2 border border-gray-300/20`}>
           <Image src={tag.logo} alt={tag.name} className='w-4 h-4' width={0} height={0} />
-          <p>{tag.name}</p>
+          <p className='w-fit'>{tag.name}</p>
         </div>
       ))}
     </div>
